@@ -1,0 +1,22 @@
+[gd_scene load_steps=4 format=3 uid="uid://b4n8ua3e0cnb5"]
+
+[ext_resource type="Texture2D" uid="uid://bon0fas205ycg" path="res://coin.png" id="1_05c0x"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_fp8n3"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_bivkt"]
+radius = 9.0
+
+[node name="Coin" type="Sprite2D"]
+
+[node name="Coin" type="Sprite2D" parent="."]
+texture_filter = 1
+texture = ExtResource("1_05c0x")
+
+[node name="RigidBody2D" type="RigidBody2D" parent="."]
+physics_material_override = SubResource("PhysicsMaterial_fp8n3")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="RigidBody2D"]
+texture_filter = 1
+shape = SubResource("CircleShape2D_bivkt")
+debug_color = Color(1, 0, 0, 0)

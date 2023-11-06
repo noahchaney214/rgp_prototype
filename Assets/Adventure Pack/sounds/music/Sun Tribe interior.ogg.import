@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://7cj0en8rfv6x"
+path="res://.godot/imported/Sun Tribe interior.ogg-b702acb7690c8056d0d5cd2eace66d0f.oggvorbisstr"
+
+[deps]
+
+source_file="res://Assets/Adventure Pack/sounds/music/Sun Tribe interior.ogg"
+dest_files=["res://.godot/imported/Sun Tribe interior.ogg-b702acb7690c8056d0d5cd2eace66d0f.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

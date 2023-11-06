@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://bwlaua50h0jyv"
+path="res://.godot/imported/determination.ogg-93cdf0ba8e9512d660836b7102c143a5.oggvorbisstr"
+
+[deps]
+
+source_file="res://Assets/Adventure Pack/sounds/music/determination.ogg"
+dest_files=["res://.godot/imported/determination.ogg-93cdf0ba8e9512d660836b7102c143a5.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
